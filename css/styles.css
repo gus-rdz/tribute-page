@@ -1,4 +1,5 @@
-.canvas {
+/* Rothko Painting */
+/* .canvas {
   width: 500px;
   height: 600px;
   background-color: #4d0f00;
@@ -47,4 +48,43 @@
   box-shadow: 0 0 5px 5px #b20403;
   border-radius: 30px 25px 60px 12px;
   transform: rotate(-0.2deg);
+} */
+
+/* Nutrition Label */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+p {
+  margin: 0;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+
+.bold {
+  font-weight: 800;
 }
